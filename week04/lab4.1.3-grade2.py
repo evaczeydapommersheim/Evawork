@@ -3,10 +3,10 @@
 
 # Author: Eva czeyda-Pommersheim
 
-percentage = round(float(input("Enter the percentage: ")))
+percentage = round(float(input("Enter the percentage: "))) # added round () function to ensure that any decimal values are rounded to return the corresponding grade.
 
 if percentage < 0 or percentage > 100: 
-    print("Please enter a number between 0 and 100")
+    print("Please enter a number between 0 and 100") # grade values can only be between 0 and 100
 elif percentage < 40:
     print("Fail")
 elif percentage < 50:
