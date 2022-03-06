@@ -2,7 +2,7 @@
 
 # Author: Eva Czeyda-Pommersheim
 
-numberTo = 40
+numberTo = 100
 evenNumber = 0
 while evenNumber <= numberTo:
     print(evenNumber)

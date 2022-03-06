@@ -15,3 +15,13 @@ student = {
     }
     ]
 }
+
+print("student: {}".format(student["studentName"]))
+module = input("Enter your module name: ")
+print(module)
+
+for module in student["modules"]:
+    while True:
+        module != " "
+        print("\t {}".format(module["courseName"]))
+        break
